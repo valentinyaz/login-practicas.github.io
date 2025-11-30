@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #e9f5e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Caja principal */
+.login-container {
+  background: white;
+  width: 350px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+  position: relative;
+  padding-bottom: 30px;
+}
+
+/* Curva verde */
+.top-curve {
+  background: #0c7441;
+  height: 140px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+
+/* Logo */
+.logo {
+  text-align: center;
+  margin-top: -60px;
+  font-size: 50px;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #0c7441;
+  font-size: 26px;
+}
+
+/* Formulario */
+.form-login {
+  padding: 20px 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #0c7441;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input {
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid #c6c6c6;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #0c7441;
+}
+
+/* Botón */
+.btn-login {
+  margin-top: 25px;
+  background: #0c7441;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-login:hover {
+  background: #095c34;
+}
+
+/* Error */
+.mensaje-error {
+  text-align: center;
+  color: red;
+  margin-top: 15px;
+  font-size: 14px;
+}
+/* HOME PAGE ESTILO BONITO */
+
+/* Contenedor principal */
+.home-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+/* Encabezado */
+.home-header {
+  width: 100%;
+  background: #0c7441;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.home-header h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Tarjeta de contenido */
+.home-card {
+  margin-top: 25px;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.home-card h3 {
+  color: #0c7441;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.home-card p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Video */
+.video-box {
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* Botón cerrar sesión */
+.btn-logout {
+  background: #0c7441;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background: #095c34;
+}
